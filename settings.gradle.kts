@@ -16,8 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url =
+                uri("https://phonepe.mycloudrepo.io/public/repositories/phonepe-intentsdk-android")
+        }}
     }
-}
 
-rootProject.name = "Phone Pe Test"
-include(":app")
+    rootProject.name = "Phone Pe Test"
+    include(":app")
